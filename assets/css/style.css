@@ -1,0 +1,14 @@
+body {
+    font-family: 'Cinzel', serif;
+}
+
+h1 {
+    color: maroon;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+p {
+    font-family: 'Lacquer', sans-serif;
+    font-size: 17px;
+}

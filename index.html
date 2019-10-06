@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>The Crystal Collector</title>
+    <title>Save the Pokemon Game!</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Lacquer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
     
 </head>
 
@@ -20,7 +20,7 @@
 
                     <div class="jumbotron">
 
-                        <img src="assets/images/banner.jpg" alt="pokemon" class="img-fluid" alt="Responsive image">
+                        <img src="assets/images/banner2.jpg" alt="pokemon" class="img-fluid" alt="Responsive image">
                         <hr class="my-4">
                         <h1 class="text-center">Save the Pokemon!</h1>                                       
   
@@ -45,7 +45,7 @@
 
                     <div class="col-sm-6">
     
-                        <p>Trainer!</p>
+                        <p id="font">Trainer!</p>
                         <p>Pikachu, Bulbasaur, Squritle and Charmander  need your help!</p>
                         <p>Jessie, James and their sidekick Meowth are attempting to steal Pokemon for Team Rocket's leader, Giovanni. If Team Rocket succeeds then they will conduct experiments on the captured Pokemon — or force them to fight in Giovanni's evil Pokemon army!</p>
                         <p>Below are the Pokemon who hold random numerical values. To help defeat Team Rocket, click on a Pokemon to bring up your number to eqaul Team Rockets.</p>
@@ -59,24 +59,7 @@
 
 
 
-            <div class="row mt-5">
 
-                    <div class="col-sm-6">
-
-                        <h2>Team Rocket's Number: <span id="gio"></span></h2>
-                        <h2>Your Number: <span id="you"></span></h2>
-
-                    </div>
-
-                    <div class="col-sm-6">
-
-                        <h2>Pokemon Saved: <span id="win"></span></h2>
-                        <h2>Pokemon Captured: <span id="lose"></span></h2>
-
-                    </div>
-
-
-            </div>
 
             <div class="row mt-5">
 
@@ -110,6 +93,27 @@
 
 
             </div>
+
+
+            <div class="row mt-5">
+
+                    <div class="col-sm-6">
+
+                        <h2>Team Rocket's Number: <span id="gio"></span></h2>
+                        <h2>Your Number: <span id="you"></span></h2>
+
+                    </div>
+
+                    <div class="col-sm-6">
+
+                        <h2>Pokemon Saved: <span id="win"></span></h2>
+                        <h2>Pokemon Captured: <span id="lose"></span></h2>
+
+                    </div>
+
+
+            </div>
+
 
             <div class="row mt-5">
 
@@ -145,8 +149,7 @@
 
     
 
-    <script src="assets/javascript/game.js">
-    
+    <script src="assets/javascript/game.js">    
     
     
     </script>
