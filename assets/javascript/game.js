@@ -16,6 +16,8 @@ console.log(`the leaf stone is ${leafStone}`)
 console.log(`the thunder stone is ${thunderStone}`)
 console.log(`the water stone is ${waterStone}`)
 
+$("#gio").text(ranNum)
+
 $(document).ready(function() {
 
     $("#fire").on("click", function(){
@@ -44,15 +46,20 @@ $(document).ready(function() {
 
 
     function scoreChecker() {
+        $("#you").text(totalScore)
+
+
         if (totalScore > ranNum){
             console.log("you lost")
             losses++
+            $("#lose").text(losses)
             reStart()
         }
 
         if (totalScore === ranNum) {
             console.log("you won")
             wins++
+            $("#wins").text(wins)
             reStart()
         }
     }
@@ -66,6 +73,10 @@ $(document).ready(function() {
         leafStone = Math.floor(Math.random() * (12 - 1)) + 1;
 
         totalScore = 0;
+        $("#gio").text(ranNum)
+        $("#lose").text(losses)
+        $("#win").text(wins)
+        losses
 
         console.log(`the random number is ${ranNum}`)
         console.log(`the fire stone is ${fireStone}`)
