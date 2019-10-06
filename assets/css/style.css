@@ -1,5 +1,10 @@
 body {
+    background-image: url("../images/background.jpg");
     font-family: 'Cinzel', serif;
+}
+
+.image {
+    background-color: white;
 }
 
 h1 {

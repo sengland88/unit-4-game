@@ -87,6 +87,8 @@ $(document).ready(function() {
         console.log(`your wins are: ${wins}`)
         console.log(`your losses are: ${losses}`)
 
+        
+
     }
     
     
