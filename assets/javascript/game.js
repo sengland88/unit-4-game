@@ -20,25 +20,25 @@ $("#gio").text(ranNum)
 
 $(document).ready(function() {
 
-    $("#fire").on("click", function(){
+    $("#pika").on("click", function(){
         totalScore = totalScore + fireStone
         console.log(totalScore)
         scoreChecker()
     })
     
-    $("#leaf").on("click", function(){   
+    $("#squirt").on("click", function(){   
         totalScore = totalScore + leafStone
         console.log(totalScore)
         scoreChecker()
     })
     
-    $("#water").on("click", function(){   
+    $("#bulba").on("click", function(){   
         totalScore = totalScore + waterStone
         console.log(totalScore)
         scoreChecker()
     })
     
-    $("#thunder").on("click", function(){    
+    $("#char").on("click", function(){    
         totalScore = totalScore + thunderStone
         console.log(totalScore)
         scoreChecker()        
